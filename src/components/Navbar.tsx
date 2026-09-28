@@ -123,10 +123,10 @@ export default function Navbar() {
         ))}
         <div className="mobile-menu-bottom">
           <a href="https://github.com/asthashukla" target="_blank" rel="noopener noreferrer" className="nav-icon-btn" aria-label="GitHub">
-            <Github size={20} />
+            <ExternalLink size={20} />
           </a>
           <a href="https://linkedin.com/in/astha-shukla" target="_blank" rel="noopener noreferrer" className="nav-icon-btn" aria-label="LinkedIn">
-            <Linkedin size={20} />
+            <ExternalLink size={20} />
           </a>
           <a href="#resume" className="nav-resume-btn" onClick={(e) => { e.preventDefault(); handleNavClick('#resume'); setMenuOpen(false); }}>
             Resume
