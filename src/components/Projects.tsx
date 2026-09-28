@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { useReveal } from '../hooks/useReveal';
 import { projects } from '../data';
 import ProjectModal from './ProjectModal';
