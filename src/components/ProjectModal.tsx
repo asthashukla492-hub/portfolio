@@ -1,4 +1,4 @@
-import { X, ExternalLink, Github, BookOpen, Lightbulb, Layers, CheckCircle, GraduationCap } from 'lucide-react';
+import { X, ExternalLink, BookOpen, Lightbulb, Layers, CheckCircle, GraduationCap } from 'lucide-react';
 import type { Project } from '../types';
 
 interface ProjectModalProps {
@@ -127,7 +127,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               className="btn-secondary"
               style={{ fontSize: '0.85rem', padding: '0.6rem 1.25rem' }}
             >
-              <Github size={14} />
+              <ExternalLink size={14} />
               GitHub
             </a>
           </div>
