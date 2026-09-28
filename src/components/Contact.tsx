@@ -105,7 +105,7 @@ export default function Contact() {
                 style={{ fontSize: '0.85rem', padding: '0.6rem 1.1rem', flex: 1, justifyContent: 'center' }}
                 aria-label="View GitHub profile"
               >
-                <Github size={14} />
+                <Code2 size={14} />
                 GitHub
               </a>
             </div>
