@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Code2 } from 'lucide-react';
 import { useReveal } from '../hooks/useReveal';
 import { projects } from '../data';
 import ProjectModal from './ProjectModal';
@@ -66,7 +66,7 @@ function ProjectCard({ project, onOpen }: { project: Project; onOpen: (p: Projec
             className="project-link"
             aria-label={`GitHub repository for ${project.name}`}
           >
-            <Github size={12} />
+            <Code2 size={12} />
             GitHub
           </a>
         </div>
