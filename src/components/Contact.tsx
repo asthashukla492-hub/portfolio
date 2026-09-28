@@ -1,5 +1,5 @@
-import { useState, type FormEvent } from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, Send, CheckCircle } from 'lucide-react';
+import { useState, type FormEvent, type ChangeEvent } from 'react';
+import { Mail, Phone, MapPin, Send, CheckCircle, Code2, BriefcaseBusiness } from "lucide-react";
 import { useReveal } from '../hooks/useReveal';
 
 export default function Contact() {
@@ -8,7 +8,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormState((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
