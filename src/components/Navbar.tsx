@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, FileText, X } from 'lucide-react';
+import { ExternalLink, FileText, X } from 'lucide-react';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -67,7 +67,7 @@ export default function Navbar() {
                 className="nav-icon-btn"
                 aria-label="GitHub"
               >
-                <Github size={17} />
+                <ExternalLink size={17} />
               </a>
               <a
                 href="https://linkedin.com/in/astha-shukla"
@@ -76,7 +76,7 @@ export default function Navbar() {
                 className="nav-icon-btn"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={17} />
+                <ExternalLink size={17} />
               </a>
               <a
                 href="#resume"
