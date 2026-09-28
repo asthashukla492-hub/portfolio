@@ -1,5 +1,5 @@
 import { useState, type FormEvent, type ChangeEvent } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle, Code2, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Send, CheckCircle, Code2, ExternalLink } from "lucide-react";
 import { useReveal } from '../hooks/useReveal';
 
 export default function Contact() {
@@ -94,7 +94,7 @@ export default function Contact() {
                 style={{ fontSize: '0.85rem', padding: '0.6rem 1.1rem', flex: 1, justifyContent: 'center' }}
                 aria-label="View LinkedIn profile"
               >
-                <Linkedin size={14} />
+                <ExternalLink size={14} />
                 LinkedIn
               </a>
               <a
