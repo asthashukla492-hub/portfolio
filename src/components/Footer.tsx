@@ -1,5 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
-
+import { Mail } from 'lucide-react';
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -22,7 +21,7 @@ export default function Footer() {
               className="footer-link"
               aria-label="GitHub profile"
             >
-              <Github size={18} />
+              <span>GitHub</span>
             </a>
             <a
               href="https://linkedin.com/in/astha-shukla"
@@ -31,7 +30,7 @@ export default function Footer() {
               className="footer-link"
               aria-label="LinkedIn profile"
             >
-              <Linkedin size={18} />
+              <span>LinkedIn</span>
             </a>
             <a
               href="mailto:asthashukla492@gmail.com"
