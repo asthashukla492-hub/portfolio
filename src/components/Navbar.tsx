@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, FileText, X } from 'lucide-react';
+import { FileText, X } from 'lucide-react';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
