@@ -50,20 +50,6 @@ export default function Contact() {
               </div>
             </a>
 
-            <a
-              href="tel:+918726433701"
-              className="contact-item"
-              style={{ textDecoration: 'none' }}
-              aria-label="Call Astha"
-            >
-              <div className="contact-icon">
-                <Phone size={18} />
-              </div>
-              <div>
-                <div className="contact-label">Phone</div>
-                <div className="contact-value">+91 8726433701</div>
-              </div>
-            </a>
 
             <div className="contact-item">
               <div className="contact-icon">
