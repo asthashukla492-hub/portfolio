@@ -1,5 +1,5 @@
 import { useState, type FormEvent, type ChangeEvent } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle, Code2, ExternalLink } from "lucide-react";
+import { Mail, MapPin, Send, CheckCircle, Code2, ExternalLink } from "lucide-react";
 import { useReveal } from '../hooks/useReveal';
 
 export default function Contact() {
